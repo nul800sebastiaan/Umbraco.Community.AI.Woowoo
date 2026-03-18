@@ -1,0 +1,14 @@
+{
+    "$schema": "https://marketplace.umbraco.com/umbraco-marketplace-schema.json", 
+    "AuthorDetails": {
+      "Name": "Toni Turin",
+      "ImageUrl": "https://github.com/nul800sebastiaan.png"
+    },
+    "Category": "",
+    "Description": "",
+    "LicenseTypes": [ "Free" ],
+    "IssueTrackerUrl": "https://github.com/nul800sebastiaan/Umbraco.Community.AI.Woowoo/issues",
+    "PackageType": "Package",
+    "Tags": [],
+    "Title": "AI.Woowoo "
+  }

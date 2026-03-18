@@ -1,0 +1,14 @@
+{
+  "id": "AI.Woowoo",
+  "name": "AI.Woowoo",
+  "version": "0.0.0",
+  "allowTelemetry": true,
+  "extensions": [
+    {
+      "name": "AIWoowoo Bundle",
+      "alias": "AI.Woowoo.Bundle",
+      "type": "bundle",
+      "js": "/App_Plugins/AIWoowoo/ai-woowoo.js"
+    }
+  ]
+}
