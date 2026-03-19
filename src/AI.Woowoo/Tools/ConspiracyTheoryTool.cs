@@ -67,6 +67,6 @@ public class ConspiracyTheoryTool : AIToolBase<ConspiracyTheoryArgs>
     }
 
     // Exposes protected ExecuteAsync for unit tests
-    public Task<object> TestExecuteAsync(ConspiracyTheoryArgs args, CancellationToken cancellationToken)
+    internal Task<object> TestExecuteAsync(ConspiracyTheoryArgs args, CancellationToken cancellationToken)
         => ExecuteAsync(args, cancellationToken);
 }
