@@ -238,7 +238,3 @@ When it comes to implementing the package itself, the first thing to add to `src
 Note that `Umbraco.AI.Core` 1.6.0 requires Umbraco.Cms 17.1.0 or higher. The template scaffolds the package project against 17.0.0, so bump the four Umbraco.Cms references in the same file to 17.1.0 when you add this.
 
 The next step is implementing the `Umbraco.Community.AI.Woowoo` package itself -- but that's a story for another post.
-
----
-
-*Thanks to [Lotte Pitcher](https://github.com/LottePitcher) for the package starter template and to [Matt Brailsford](https://mattbrailsford.dev/) for the Umbraco.AI Kitchen Sink guide and seed data Gist. Both saved a lot of setup time.*
