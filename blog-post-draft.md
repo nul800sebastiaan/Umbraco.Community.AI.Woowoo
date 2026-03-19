@@ -231,8 +231,8 @@ The environment is now ready:
 
 When it comes to implementing the package itself, the first thing to add to `src/AI.Woowoo/AI.Woowoo.csproj` is a reference to `Umbraco.AI.Core` -- the package that contains all the extension points (custom tools, middleware, guardrail evaluators, etc.):
 
-```xml
-<PackageReference Include="Umbraco.AI.Core" Version="1.6.0" />
+```bash
+dotnet add src/AI.Woowoo package Umbraco.AI.Core --version 1.6.0
 ```
 
 Note that `Umbraco.AI.Core` 1.6.0 requires Umbraco.Cms 17.1.0 or higher. The template scaffolds the package project against 17.0.0, so bump the four Umbraco.Cms references in the same file to 17.1.0 when you add this.
