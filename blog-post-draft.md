@@ -166,7 +166,7 @@ A couple of notes:
 - `Umbraco.AI.Agent.Copilot` requires `--prerelease` because it's still in alpha. The other packages are stable.
 - All five provider packages (Amazon Bedrock, Anthropic, Google, Microsoft Foundry, OpenAI) are installed so the environment is ready for any AI provider you or contributors want to test against. The seed data in the next step only activates the OpenAI connection, but the others are configured and waiting.
 
-Check [Matt's install guide](https://mattbrailsford.dev/umbraco-ai-kitchen-sink-install) if you're following along later -- version numbers may have moved on.
+Check [Matt's install guide](https://mattbrailsford.dev/umbraco-ai-kitchen-sink-install) if you're following along later -- version numbers may have moved on. The [Umbraco.AI documentation](https://github.com/umbraco/Umbraco.AI/tree/main/docs/public) covers all the extensibility points in detail if you want to go further.
 
 ---
 
