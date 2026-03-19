@@ -9,6 +9,8 @@ using Umbraco.Cms.Core.Composing;
 using Umbraco.Cms.Core.DependencyInjection;
 using Umbraco.Cms.Api.Management.OpenApi;
 using Umbraco.Cms.Api.Common.OpenApi;
+using Umbraco.AI.Extensions;
+using AI.Woowoo.Tools;
 
 namespace AI.Woowoo.Composers
 {
@@ -16,6 +18,7 @@ namespace AI.Woowoo.Composers
     {
         public void Compose(IUmbracoBuilder builder)
         {
+            builder.AITools().Add<ConspiracyTheoryTool>();
 
             builder.Services.AddSingleton<IOperationIdHandler, CustomOperationHandler>();
 
