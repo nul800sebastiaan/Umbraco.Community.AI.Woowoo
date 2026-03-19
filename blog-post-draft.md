@@ -65,13 +65,13 @@ This will take a few minutes -- `npm install` runs as part of the setup. Wait fo
 
 ---
 
-## Step 3: The Linux/macOS gotcha -- `setup.cmd` won't run
+## ~~Step 3: The Linux/macOS gotcha -- `setup.cmd` won't run~~
 
-> **If you're on Windows, you can skip this section.** The template's `setup.cmd` script will have run fine and your solution is ready. Jump straight to [Step 4](#step-4-build-the-frontend--verify-the-base-site).
+> **This has been fixed in the latest version of the template -- you can skip this step entirely.**
 
-On Linux and macOS, the `setup.cmd` post-creation script fails with "Permission denied" because it's a Windows batch file. The template *files* are all created correctly -- the script just doesn't run, so the git repository, the frontend scaffolding, the solution wiring, and a few other things need to be done manually.
+~~On Linux and macOS, the `setup.cmd` post-creation script fails with "Permission denied" because it's a Windows batch file. The template *files* are all created correctly -- the script just doesn't run, so the git repository, the frontend scaffolding, the solution wiring, and a few other things need to be done manually.~~
 
-Here's everything the script would have done, translated into commands you can run:
+~~Here's everything the script would have done, translated into commands you can run:~~
 
 ```bash
 # Initialise the git repository
@@ -98,7 +98,7 @@ dotnet sln add "AI.Woowoo"
 dotnet add "AI.Woowoo.TestSite/AI.Woowoo.TestSite.csproj" reference "AI.Woowoo/AI.Woowoo.csproj"
 ```
 
-> **Tip:** The repo root also contains a `setup.mjs` file -- a Node.js replacement for `setup.cmd` that works cross-platform. If it's present, running `node setup.mjs` handles all the steps above.
+~~The repo root also contains a `setup.mjs` file -- a Node.js replacement for `setup.cmd` that works cross-platform. If it's present, running `node setup.mjs` handles all the steps above.~~
 
 ---
 
